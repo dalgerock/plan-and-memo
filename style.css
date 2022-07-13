@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding: 20px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+#navigator {
+    border-right: 2px solid black;
+    margin: 0;
+    padding: 30px;
+}
+
+#article {
+    padding-left: 20px;
+}
+
+#navigator > li {
+    margin-bottom: 20px;
+}
+
+#navigator a, h1 a {
+    text-decoration: none;
+    color: black;
+}
